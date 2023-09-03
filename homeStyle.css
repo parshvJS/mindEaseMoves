@@ -158,7 +158,7 @@ nav a:hover {
     width: 100%;
     height: 700px;
 
-    background: #61aad7;
+    background: #78B1D5;
 }
 
 #feature-txt {
@@ -178,56 +178,64 @@ nav a:hover {
 
 
 .card {
-    width: 288px;
-    height: 426px;
-    display: inline-flex;
-    margin-right: 20px;
-    border-radius: 33px;
-    background: #ffffff;
-    text-align: center;
-}
-
-.card h1 {
-    position: absolute;
+    width: 100%;
+    height: 452px;
     display: inline-block;
-    color: #000;
-    text-align: center;
-    font-family: Inter;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin: 9px 51px 7px 50px;
+    background: #ffffff;
+  align-items: flex-start;
 }
 
-#img1 {
-    width: 229px;
-    height: 302px;
-    flex-shrink: 0;
-    position: absolute;
-    margin: 114px 30px 10px 29px;
+.card img{
+    width: 397px;
+    height: 456px;
+flex-shrink: 0;
+display: inline-block;
+}
+.content{
+    margin-top: 35px;
+    width: 1000px;
+height: 500px;
+flex-shrink: 0;
+    display: inline-block;
+flex-shrink: 0;
+}
+.card .content h1{
+    align-items: flex-start;
+    color: #233F57;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+display: inline-flex;
+}
+.card .content p{
+    margin-top: 20px;
+
+    width: 700px;
+height: 138px;
+flex-shrink: 0;
+
+color: #2D475E;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28.5px; /* 142.5% */
+}
+.card .content p b{
+    color: #365774;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 28.5px;
 }
 
-#img2 {
-    width: 270px;
-    height: 256px;
-    flex-shrink: 0;
-    position: absolute;
-    /* margin: 19px 161px 1px 9px; */
-    margin: 9px 10px 161px 19px;
-
-
-}
-#txt2{
-    text-align: center;
-    margin: 304px 24px 73px 40px;
-}
-#txt3{
-margin: 60px 16px 323px 15px ;
-position: absolute;
-}
-
-.feature {
-    text-align: center;
-    padding: 0px 25px;
+.content button{
+    width: 288px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #345878;
 }
